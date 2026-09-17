@@ -82,17 +82,39 @@ header {
 
 .Intro h3 {
     font-size: 1.3em;
-    margin: 10px 0 5px 0;
-    color: #00ff00;
+    margin: 50x 0 10px 0;
+    color: #ffffff;
 }
 
-.Intro p {
-    font-size: 1em;
-    margin: 8px 0;
+.ssl {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 0.5em;
     color: #fefefe;
+
+    background-color: #1d1c1c;
+    border: 1px solid #888;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.descripcion {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-size: 0.9em;
+    color: #ffffff;
+
+    background-color: #1d1c1c;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-align: left;
+    max-width: 90%;
 }
 
 .Caja{
+    position: relative;
     margin-top: 98px;
     width: 35%;
     max-height: 80vh;
@@ -119,17 +141,93 @@ main {
 }
 
 form {
-    width: 400px;
+    width: 98%;
+    flex-direction: column;
+    align-items: flex-start;
     text-align: center;
 }
 
-input, button {
-    width: 100%;
+.Correo-Nombre {
+    font-size: 0.8em;
+    position: relative;
+    display: block;
+    margin-top: -20px;
+    margin-left: -189px;
+    margin-bottom: -15px;
+    color: #ffffff;
+}
+
+.Correo-Nombre::after {
+    content: " *";
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.correo-input {
+    width: 91%;
+    padding: 9px 1px 5px 20px;
+    background-color: #111;
+    border: 1px solid #f8f8f8;
+    color: #00ff00;
+    text-align: left;
+    position: relative;
+
+    background-image: url("../Assets/Muñequito.png");
+    background-repeat: no-repeat;
+    background-position: 1px center;
+    background-size: 20px 20px;
+
+    text-indent: 5px;
+}
+
+.contraseña {
+    font-size: 0.8em;
+    position: relative;
+    display: block;
+    margin-top: -5px;
+    margin-left: -392px;
+    margin-bottom: -15px;
+    color: #ffffff
+}
+.contraseña::after {
+    content: " *";
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.contraseña::before{
+    content: "Minimo 8 caracteres";
+    color: #abbeab;
+    font-size: 0.8em;
+    position: absolute;
+    right: 11px;
+
+}
+.contraseña-input{
+    width: 91%;
+    padding: 10px 1px 5px 20px;
+    background-color: #111;
+    border: 1px solid #f8f8f8;
+    color: #00ff00;
+    text-align: left;
+    position: relative;
+
+    background-image: url("../Assets/Llave.png");
+    background-repeat: no-repeat;
+    background-position: 1px center;
+    background-size: 30px 20px;
+
+    text-indent: 10px;
+
+}
+button {
+    width: 85%;
     padding: 10px;
     margin: 6px 0;
     background-color: #111;
     border: 1px solid #00ff00;
     color: #00ff00;
+    text-align: center;
 }
 
 footer {
