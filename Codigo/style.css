@@ -203,6 +203,7 @@ form {
     right: 11px;
 
 }
+
 .contraseña-input{
     width: 91%;
     padding: 10px 1px 5px 20px;
@@ -212,13 +213,89 @@ form {
     text-align: left;
     position: relative;
 
-    background-image: url("../Assets/Llave.png");
-    background-repeat: no-repeat;
-    background-position: 1px center;
-    background-size: 30px 20px;
+    background-image: url("../Assets/Llave.png"), url("../Assets/Ojito.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 1px center, right 1px center;
+    background-size: 30px 20px, 55px 35px;
 
     text-indent: 10px;
 
+}
+
+.Crear-Cuenta{
+    width: 96%;
+    padding: 20px 1px 10px 40px;
+    margin: 8px 0;
+    background-color: #06b306;
+    border: 1px solid #00ff00;
+    color: #111;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    
+    background-image: url("../Assets/Inicio.png");
+    background-repeat: no-repeat;
+    background-position: 160px;
+    background-size: 30px 30px;
+    box-sizing: border-box;
+}
+
+p.Lineas-Cuenta{
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    text-align: center;
+    font-size: 0.6em;
+    margin-top: -10px;
+    margin-bottom: 1px;
+}
+
+p.Lineas-Cuenta::after, p.Lineas-Cuenta::before {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #505150;
+    margin: 0 10px;
+}
+
+.Iniciar-Sesion{
+    width: 96%;
+    padding: 5px 1px 10px 40px;
+    margin-top: -10px;
+    background: #06b306;
+    border: 1px solid #00ff00;
+    color: #111;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    
+    background-image: url("../Assets/Puerta.png");
+    background-repeat: no-repeat;
+    background-position: 186px;
+    background-size: 20px 20px;
+    box-sizing: border-box;
+}
+
+p.Lineas-Acceso{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.6em;
+    margin-top: 10px;
+
+}
+
+p.Lineas-Acceso::after, p.Lineas-Acceso::before{
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #505150;
+    margin: 0 10px;
+}
+.Texto-Acceso{
+    background-color: #1d1c1c;
+    border: 1px solid #888;
+    padding: 5px 10px;
+    border-radius: 4px;
 }
 button {
     width: 85%;
