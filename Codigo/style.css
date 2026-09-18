@@ -300,11 +300,21 @@ p.Lineas-Acceso::after, p.Lineas-Acceso::before{
     border-radius: 4px;
 }
 .Caja_2{
+    position: relative;
+    width: 90%;
+    max-width: 100vh;
+    height: 15vh;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #00ff00;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #ffff;
+    text-align: left;
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
-    margin: 20px 40px;
-    max-width: 90%;
 }
 .Caja_2 h4{
     display: flex;
@@ -313,6 +323,10 @@ p.Lineas-Acceso::after, p.Lineas-Acceso::before{
     margin: 10px 0;
     color: #ffffff;
     margin: 60px 0 10px 0px;
+
+    position: absolute;
+    top: -12px;
+    left: 45px;
 }
 
 .Caja_2 h4::after{
@@ -329,6 +343,10 @@ p.Lineas-Acceso::after, p.Lineas-Acceso::before{
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
+
+    position: absolute;
+    top: 65px;
+    left: 35px;
 }
 .Texto-Invitado{
     font-size: 0.7em;
@@ -342,7 +360,7 @@ p.Lineas-Acceso::after, p.Lineas-Acceso::before{
 .Iniciar-Invitado{
     width: auto;
     padding: 10px 15px;
-    background-color: #ffff;
+    background-color: #222222;
     border: 1px solid #00ff00;
     color: #00ff00;
     text-align: center;
@@ -350,6 +368,10 @@ p.Lineas-Acceso::after, p.Lineas-Acceso::before{
     border-radius: 4px;
     font-weight: bold;
     align-self: flex-start;
+
+    position: absolute;
+    top: -5px;
+    left: 280px;
 }
 
 footer {
