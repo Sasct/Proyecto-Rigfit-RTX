@@ -223,9 +223,11 @@ form {
 }
 
 .Crear-Cuenta{
+    display: inline-block;
     width: 96%;
     padding: 20px 1px 10px 40px;
-    margin: 8px 0;
+    margin: 15px 0;
+    margin-top: 6px;
     background-color: #06b306;
     border: 1px solid #00ff00;
     border-radius: 4px;
@@ -233,10 +235,11 @@ form {
     text-align: center;
     cursor: pointer;
     font-weight: bold;
-    
+    text-decoration: none; /* quita el subrayado típico de los enlaces */
+
     background-image: url("../Assets/Inicio.png");
     background-repeat: no-repeat;
-    background-position: 160px;
+    background-position: 145px;
     background-size: 30px 30px;
     box-sizing: border-box;
 }
@@ -247,7 +250,7 @@ p.Lineas-Cuenta{
     color: #ffff;
     text-align: center;
     font-size: 0.6em;
-    margin-top: -10px;
+    margin-top: 5px;
     margin-bottom: 1px;
 }
 
