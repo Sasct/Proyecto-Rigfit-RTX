@@ -1,0 +1,23 @@
+.Nuevo{
+    position:absolute;
+    top: 8px;
+    left: 200px;
+    font-size: 0.5em;
+    color: #00ff00;
+
+    background-color: #353434;
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.CREAR{
+    color: #ffffff;
+}
+.CUENTA{
+    color: #00ff00;
+}
+.CREAR,.CUENTA{
+    position: relative;
+    top: 10px;
+    font-size: 1.2em;
+}

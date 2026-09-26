@@ -3,25 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REGISTRO - RIGIT RTX</title>
+    <title>REGISTRO - RIGFIT RTX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="registro.css">
+
 </head>
 <body>
     <header>
-        <h1>CREAR CUENTA NUEVA</h1>
+        <div class="Logo">
+            <img src="../Assets/Icono.png" alt="icono RTX" class="Logo-icon">
+            <div class ="Logo-texto">
+                <h1>
+                    <span class="RIGFIT">RIGFIT</span>
+                    <span class="RTX">RTX</span>
+                </h1>
+                <h2>HARWARE TELEMETRY CORE</h2>
+            </div>
+        </div>
+
+        <div class="Profile">
+            <button class="Profile-btn"> LOGIN </button>
+            <img src="../Assets/Perfil.png" alt="foto de perfil" class="Profile-icon">
+        </div>
     </header>
+
+
     <main>
-        <form>
-            <label for=""></label>
-            <input type=""><br><br>
+        <div class="Caja">
+            <div class="Intro_2">
+                <p class="Nuevo">NUEVO USUARIO // REGISTRO SEGURO</p>
+                <h3>
+                    <span class="CREAR">CREAR CUENTA</span>
+                    <span class="CUENTA">RTX RIGFIT</span>
+                </h3>
+                <p class="descripcion">Unete a la plataforma de analisis y diagnostico de hardware para computadores o dispositivos moviles.</p>
+            </div>
+            <form>
+                <label for="Nombre" class="Nombre"> NOMBRE COMPLETO </label><br>
+                <input type="text" id="Nombre-Completo" name="Nombre-Completo" class="Nombre-input" placeholder="Stiven Grand"><br><br>
 
-            <label for=""></label>
-            <input type=""><br><br>
+                <label for="Nombre-Usuario"> NOMBRE DE USUARIO</label><br>
+                <input type="text" id="Nombre-Usuario" name="Nombre-Usuario" class="Nombre-Usuario" placeholder="Moon Knight"><br><br>
 
-            <label for=""></label>
-            <input type=""><br><br>
+                <label for="Correo" class="Correo"> CORREO ELECTRONICO</label><br>
+                <input type="text" id="Correo" name="Correo" class="Correo" placeholder="MidnightSons@gmail.com"><br><br>
+                
+                <label for="Contraseña"> CONTRASEÑA </label><br>
+                <input type="Password" id="Contraseña" name="Contraseña" class="Contraseña" placeholder="********"><br><br>
 
-            <button type="">REGISTRAR</button>
-        </form>
+                <label for="Contraseña-Confirmada"> CONFIRMAR CONTRASEÑA </label><br>
+                <input type="Password" id="Contraseña-Confirmada" name="Contraseña-Confirmada" class="Contraseña-Confirmar" placeholder="********"><br><br>
+
+                <a href="" class="Crear-Cuenta-RIGIFT"> CREAR CUENTA RIGIFT</a>
+            </form>
+        </div>
     </main>
+    <footer>
+        <p>Ucompensar</p>
+    </footer>
 </body>
 </html>
